@@ -15,8 +15,8 @@ namespace BASE
 		public IngresoEmisiones()
 		{
 			InitializeComponent ();
-            BtnIrBT.Clicked += BtnIrBT_Clicked;
-            BtnIrInicio.Clicked += BtnIrInicio_Clicked;
+            btnIrBT.Clicked += BtnIrBT_Clicked;
+            btnIrInicio.Clicked += BtnIrInicio_Clicked;
 
 
 

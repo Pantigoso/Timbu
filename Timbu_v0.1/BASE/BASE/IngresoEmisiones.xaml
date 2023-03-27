@@ -15,14 +15,14 @@
                     </Grid.RowDefinitions>
 
                     <StackLayout Grid.Row="1" Padding="50,20" Margin="0,140,0,0" >
-                        <Label Text="Ingreso Emisiones"></Label>
+                        <Label Text="Ingreso de Emisiones" BackgroundColor="#006900" TextColor="#69FF69" x:Name="lblTituloPagina"/>
                     </StackLayout>
                 </Grid>
             </Grid>
             <StackLayout Grid.Row="9" Padding="10,0" Grid.RowSpan="2" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Button Text="Inicio" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="150" x:Name="BtnIrInicio"/>
-                <Button Text="Base&#x0a;Técnica" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="150" x:Name="BtnIrBT"/>
-                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="150" x:Name="Logout"/>
+                <Button Text="Inicio" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="100" x:Name="btnIrInicio"/>
+                <Button Text="Base&#x0a;Técnica" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="100" x:Name="btnIrBT"/>
+                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="100" x:Name="Logout"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

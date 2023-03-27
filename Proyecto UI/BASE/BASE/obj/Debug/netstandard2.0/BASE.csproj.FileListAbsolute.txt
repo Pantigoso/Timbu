@@ -1,0 +1,73 @@
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\bin\Debug\netstandard2.0\BASE.deps.json
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\bin\Debug\netstandard2.0\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\bin\Debug\netstandard2.0\BASE.pdb
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\BASE.csproj.AssemblyReference.cache
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\BASE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\BASE.AssemblyInfoInputs.cache
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\BASE.AssemblyInfo.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\BASE.csproj.CoreCompileInputs.cache
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\refint\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\BASE.pdb
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\ref\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\MenuP1.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6\BASE\BASE\obj\Debug\netstandard2.0\Depositar.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\bin\Debug\netstandard2.0\BASE.deps.json
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\bin\Debug\netstandard2.0\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\bin\Debug\netstandard2.0\BASE.pdb
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\BASE.csproj.AssemblyReference.cache
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\BASE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\BASE.AssemblyInfoInputs.cache
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\BASE.AssemblyInfo.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\BASE.csproj.CoreCompileInputs.cache
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\refint\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\BASE.pdb
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\ref\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia\BASE\BASE\obj\Debug\netstandard2.0\Menu1.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\bin\Debug\netstandard2.0\BASE.deps.json
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\bin\Debug\netstandard2.0\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\bin\Debug\netstandard2.0\BASE.pdb
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\BASE.csproj.AssemblyReference.cache
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\BASE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\BASE.AssemblyInfoInputs.cache
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\BASE.AssemblyInfo.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\BASE.csproj.CoreCompileInputs.cache
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\refint\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\BASE.pdb
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\ref\BASE.dll
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\RegistroBoton.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\Signin.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\Inicio.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\BaseTecnica.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\BASE Semana 6 - copia TAREA LOGIN\BASE\BASE\obj\Debug\netstandard2.0\IngresoEmisiones.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\bin\Debug\netstandard2.0\BASE.deps.json
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\bin\Debug\netstandard2.0\BASE.dll
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\bin\Debug\netstandard2.0\BASE.pdb
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\BASE.csproj.AssemblyReference.cache
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\BASE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\BaseTecnica.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\IngresoEmisiones.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\Inicio.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\RegistroBoton.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\Signin.xaml.g.cs
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\BASE.AssemblyInfoInputs.cache
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\BASE.AssemblyInfo.cs
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\BASE.csproj.CoreCompileInputs.cache
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\BASE.dll
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\refint\BASE.dll
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\BASE.pdb
+C:\Users\Melanie Arista\source\repos\Proyecto UI\BASE\BASE\obj\Debug\netstandard2.0\ref\BASE.dll

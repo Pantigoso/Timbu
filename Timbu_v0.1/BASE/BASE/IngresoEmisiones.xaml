@@ -6,7 +6,7 @@
         <StackLayout>
             <Image Grid.Row="0" Source="timbu_transparente.png" WidthRequest="100" HeightRequest="50" Margin="0,20,0,0"/>
             <Grid>
-                <BoxView Color="#FFFFFF" />
+                <BoxView Color="#DFFDD2" />
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -14,15 +14,30 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-                    <StackLayout Grid.Row="1" Padding="50,20" Margin="0,140,0,0" >
-                        <Label Text="Ingreso de Emisiones" BackgroundColor="#006900" TextColor="#69FF69" x:Name="lblTituloPagina"/>
+                    <StackLayout Grid.Row="1" Padding="20,20" Margin="0,10,0,0" >
+                        <Label Text="Ingreso de Emisiones" BackgroundColor="#006900" TextColor="#69FF69"
+                               FontSize="Title" Padding="10,2"
+                               HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+                               VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2" Padding="20,10" Margin="0,10,0,0" >
+                        <Label Text="¡Conozcámos tu impacto!" TextColor="#006900" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" FontSize="Subtitle"/>
+                        <DatePicker BackgroundColor="#Beige" TextColor="#006900" x:Name="entryFecha"/>
+                        <Entry Placeholder="Seleccione la actividad" BackgroundColor="#Beige" TextColor="#006900" x:Name="entryActividad" />
+                        <Entry Placeholder="Escriba el valor mensual" BackgroundColor="#Beige" TextColor="#006900" x:Name="entryValor"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="3" Padding="0,10" Margin="0,10,0,0" Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="#DFFDD2">
+                        <Button Text="Inicio" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="150" x:Name="btnAgregarActividad" HorizontalOptions="Start"/>
+                        <Button Text="Ver Resultado" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="150" x:Name="btnVerResult" HorizontalOptions="End"/>
                     </StackLayout>
                 </Grid>
             </Grid>
-            <StackLayout Grid.Row="9" Padding="10,0" Grid.RowSpan="2" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Button Text="Inicio" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="100" x:Name="btnIrInicio"/>
-                <Button Text="Base&#x0a;Técnica" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="100" x:Name="btnIrBT"/>
-                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="100" x:Name="Logout"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" BackgroundColor="#DFFDD2">
+                <Button Text="Inicio" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="127.5" x:Name="btnIrInicio"/>
+                <Button Text="Base&#x0a;Técnica" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="127.5" x:Name="btnIrBT"/>
+                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="127.5" x:Name="Logout"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

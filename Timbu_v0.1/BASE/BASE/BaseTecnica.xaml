@@ -4,7 +4,7 @@
              x:Class="BASE.BaseTecnica">
     <ContentPage.Content>
         <StackLayout>
-            <Image Grid.Row="0" Source="timbu_transparente.png" WidthRequest="100" HeightRequest="50" Margin="0,20,0,0"/>
+            <Image Grid.Row="0" Source="timbu_transparente.png" WidthRequest="100" HeightRequest="50" Margin="0,10,0,0"/>
             <Grid>
                 <BoxView Color="#FFFFFF" />
                 <Grid>
@@ -14,15 +14,40 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-                    <StackLayout Grid.Row="1" Padding="50,20" Margin="0,140,0,0" >
-                        <Label Text="Base técnica"></Label>
+                    <StackLayout Grid.Row="1" Padding="50,0" Margin="0,0,0,0" BackgroundColor="Beige">
+                        <Label Text="Base Técnica" BackgroundColor="#006900" TextColor="#69FF69"
+                               FontSize="Title" Padding="10,2" Margin="0,10"
+                               HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+                               VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+
+                        <Image Source="https://www.bbva.com/wp-content/uploads/2021/10/calculadora-huella-carbono-sostenibilidad-bbva-895x1024.png"/>
+                        <Label FontSize="Micro" HorizontalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Imagen cortesía de " TextColor="#006900"/>
+                                    <Span Text="BBVA" TextColor="Blue" TextDecorations="Underline">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding ClickCommand}" CommandParameter="https://www.bbva.com/wp-content/uploads/2021/10/calculadora-huella-carbono-sostenibilidad-bbva-895x1024.png"/>
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                    <Span Text="." TextColor="#006900"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2" Padding="50,0" Margin="0,0,0,0" BackgroundColor="Beige">
+                        <Label Text="Veamos nuestra huella de carbono." TextColor="#006900"
+                               FontSize="Subtitle" Padding="10,2" Margin="0,10"
+                               HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+                               VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
                     </StackLayout>
                 </Grid>
             </Grid>
-            <StackLayout Grid.Row="9" Padding="10,0" Grid.RowSpan="2" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Button Text="Inicio" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="100" x:Name="BtnIrInicio"/>
-                <Button Text="Ingreso de&#x0a;Emisiones" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="100" x:Name="BtnIrIE"/>
-                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="100" x:Name="Logout"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                <Button Text="Inicio" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="125" x:Name="btnIrInicio"/>
+                <Button Text="Ingreso de&#x0a;Emisiones" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="btnIrIE"/>
+                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="Logout"/>
             </StackLayout>
         </StackLayout>
 

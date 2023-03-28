@@ -16,7 +16,7 @@
                     <local:RoundedEntry Placeholder="Correo electrónico" TextColor="Black" PlaceholderColor="LightGray" x:Name="usr" />
                     <local:RoundedEntry Placeholder="Contraseña" TextColor="Black" PlaceholderColor="LightGray" IsPassword="True" x:Name="pwd"/>
                     <Button Text="Iniciar Sesión" BackgroundColor="#2B791B" TextColor="White" Margin="5"
-                             x:Name="BtnIr" BorderRadius="20" /> 
+                             x:Name="BtnIr" CornerRadius="20" /> 
                 </StackLayout>
             </Grid>
         </Grid>    

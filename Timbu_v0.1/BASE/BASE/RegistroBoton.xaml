@@ -16,13 +16,14 @@
                 <Image Grid.Row="0" Source="hojas_transparente.png" WidthRequest="300" HeightRequest="150" Margin="0,200,0,0"/>
                 <StackLayout Grid.Row="1" Padding="105,10">
                     <Button Text="Registrarse" BackgroundColor="White" BorderColor="lightgray" BorderWidth="0.5" TextColor="gray" 
-                             x:Name="BtnIr" BorderRadius="20" />
+                             x:Name="BtnIr" CornerRadius="20" />
                 </StackLayout>
-                <StackLayout Grid.Row="2" Margin="120,0,0,0" >
+                
+                <StackLayout Grid.Row="2" Margin="0,0,0,0" Orientation="Vertical" HorizontalOptions="Center">
                     <Label>
                         <Label.FormattedText>
                             <FormattedString>
-                                <Span Text="Ya soy parte del cambio " />
+                                <Span Text="Ya soy parte del cambio: "/>
                                 <Span TextColor="Green" Text="Iniciar Sesión" />
                             </FormattedString>
 
@@ -31,7 +32,6 @@
                             <TapGestureRecognizer Tapped="OnLabelClicked" />
                         </Label.GestureRecognizers>
                     </Label>
-                                       
                 </StackLayout>
             </Grid>
         </Grid>    

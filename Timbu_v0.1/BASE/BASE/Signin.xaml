@@ -19,7 +19,8 @@
                     <local:RoundedEntry Placeholder="Apellido" TextColor="Black" PlaceholderColor="LightGray" x:Name="apll" />
                     <local:RoundedEntry Placeholder="Contraseña" TextColor="Black" PlaceholderColor="LightGray" IsPassword="True" x:Name="pwd"/>
                     <Button Text="Crear cuenta" BackgroundColor="#2B791B" TextColor="White" Margin="5"
-                             x:Name="btnRegistro" BorderRadius="20" /> 
+                             x:Name="btnRegistro" 
+                            CornerRadius="20" /> 
                 </StackLayout>
             </Grid>
         </Grid>

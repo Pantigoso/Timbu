@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows.Input;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,8 +16,8 @@ namespace BASE
 		public BaseTecnica()
 		{
 			InitializeComponent ();
-            BtnIrInicio.Clicked += BtnIrInicio_Clicked;
-            BtnIrIE.Clicked += BtnIrIE_Clicked;
+            btnIrInicio.Clicked += BtnIrInicio_Clicked;
+            btnIrIE.Clicked += BtnIrIE_Clicked;
         }
         private void BtnIrInicio_Clicked(object sender, EventArgs e)
         {
@@ -28,5 +29,10 @@ namespace BASE
             ((NavigationPage)this.Parent).PushAsync(new IngresoEmisiones());
 
         }
+
+        public ICommand ClickCommand => new Command<string>((url) =>
+        {
+            Launcher.OpenAsync(new System.Uri(url));
+        });
     }
 }

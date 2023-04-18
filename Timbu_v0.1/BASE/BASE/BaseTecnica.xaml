@@ -14,11 +14,13 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-                    <StackLayout Grid.Row="1" Padding="50,0" Margin="0,0,0,0" BackgroundColor="Beige">
-                        <Label Text="Base Técnica" BackgroundColor="#006900" TextColor="#69FF69"
-                               FontSize="Title" Padding="10,2" Margin="0,10"
-                               HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
-                               VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                    <StackLayout Grid.Row="1" Padding="50,0" Margin="0,0,0,0" BackgroundColor="#DFFDD2">
+                        <Frame BackgroundColor="#006900" Padding="0" HasShadow="False" CornerRadius="10">
+                            <Label Text="Base Técnica" TextColor="#69FF69" FontSize="Title" Padding="10,2" Margin="0,10"
+           HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+           VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                        </Frame>
+
 
                         <Image Source="https://www.bbva.com/wp-content/uploads/2021/10/calculadora-huella-carbono-sostenibilidad-bbva-895x1024.png"/>
                         <Label FontSize="Micro" HorizontalOptions="Center">
@@ -36,7 +38,7 @@
                         </Label>
                     </StackLayout>
 
-                    <StackLayout Grid.Row="2" Padding="50,0" Margin="0,0,0,0" BackgroundColor="Beige">
+                    <StackLayout Grid.Row="2" Padding="50,0" Margin="0,0,0,0" BackgroundColor="#DFFDD2">
                         <Label Text="Veamos nuestra huella de carbono." TextColor="#006900"
                                FontSize="Subtitle" Padding="10,2" Margin="0,10"
                                HorizontalTextAlignment="Center" VerticalTextAlignment="Start"

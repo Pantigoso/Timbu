@@ -1589,24 +1589,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
+    "C:\\Users\\Leeren Wu Segura\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE.iOS\\BASE.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE.iOS\\BASE.iOS.csproj",
       "projectName": "BASE.iOS",
-      "projectPath": "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE.iOS\\BASE.iOS.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE.iOS\\BASE.iOS.csproj",
+      "packagesPath": "C:\\Users\\Leeren Wu Segura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leeren Wu Segura\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1620,8 +1620,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE\\BASE.csproj": {
-              "projectPath": "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE\\BASE.csproj"
+            "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE\\BASE.csproj": {
+              "projectPath": "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE\\BASE.csproj"
             }
           }
         }

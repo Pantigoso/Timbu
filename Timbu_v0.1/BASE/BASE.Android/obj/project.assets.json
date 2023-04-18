@@ -3662,24 +3662,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
+    "C:\\Users\\Leeren Wu Segura\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE.Android\\BASE.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE.Android\\BASE.Android.csproj",
       "projectName": "BASE.Android",
-      "projectPath": "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE.Android\\BASE.Android.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE.Android\\obj\\",
+      "projectPath": "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE.Android\\BASE.Android.csproj",
+      "packagesPath": "C:\\Users\\Leeren Wu Segura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leeren Wu Segura\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3693,8 +3693,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE\\BASE.csproj": {
-              "projectPath": "E:\\Programming\\Restricted\\Roots\\Lenguaje C#\\Timbu\\Timbu_v0.1\\BASE\\BASE\\BASE.csproj"
+            "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE\\BASE.csproj": {
+              "projectPath": "C:\\Users\\Leeren Wu Segura\\Desktop\\Timbu\\Timbu_v0.1\\BASE\\BASE\\BASE.csproj"
             }
           }
         }
@@ -3707,9 +3707,21 @@
             "target": "Package",
             "version": "[1.7.5, )"
           },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.5, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2578, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2578, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.8.116, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

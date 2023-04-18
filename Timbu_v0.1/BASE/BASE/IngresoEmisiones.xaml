@@ -15,10 +15,14 @@
                     </Grid.RowDefinitions>
 
                     <StackLayout Grid.Row="1" Padding="20,20" Margin="0,10,0,0" >
-                        <Label Text="Ingreso de Emisiones" BackgroundColor="#006900" TextColor="#69FF69"
+                        <Frame BackgroundColor="#006900" Padding="0" HasShadow="False" CornerRadius="10">
+                            <Label Text="Ingreso de Emisiones" BackgroundColor="#006900" TextColor="#69FF69"
                                FontSize="Title" Padding="10,2"
                                HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
                                VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                        </Frame>
+
+                        
                     </StackLayout>
 
                     <StackLayout Grid.Row="2" Padding="20,10" Margin="0,10,0,0" >

@@ -32,7 +32,7 @@
 
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
@@ -41,36 +41,54 @@
                     </Grid.RowDefinitions>
 
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
-                    <StackLayout Grid.Row="1" Grid.Column="0" Margin="0,80,0,0">
-                        <Label Text="¿Sabías que?" FontSize="40" FontAttributes="Bold" TextColor="DarkGreen"/>
-                        <Label Text="Lorem ipsum dolor sit amet consectetur adipiscing elit, mus nisi penatibus vivamus ultrices morbi gravida, sem scelerisque pretium lacus " FontSize="Small" FontAttributes="None" TextColor="Gray" WidthRequest="50"/>
+                    <StackLayout Grid.Row="1" Grid.Column="0" Grid.RowSpan="4" Margin="10,80,0,0">
+                        <Frame BackgroundColor="#006900" CornerRadius="10" Padding="10" HasShadow="True">
+                            <StackLayout>
+                                <Label Text="¿Sabías que?" FontSize="Large" FontAttributes="Bold" TextColor="#69FF69"/>
+                                <Label Text="• Las emisiones de CO2 son responsables del cambio climático. Nuestra aplicación te ayuda a calcular y reducir tus emisiones." FontSize="Small" FontAttributes="None" TextColor="White" LineBreakMode="WordWrap"/>
+                                <Label Text="• Aproximadamente el 75% del calentamiento global ha sido causado por las actividades humanas." FontSize="Small" FontAttributes="None" TextColor="White" LineBreakMode="WordWrap"/>
+                                <Label Text="• El sector del transporte es el que más contribuye a las emisiones globales de CO2." FontSize="Small" FontAttributes="None" TextColor="White" LineBreakMode="WordWrap"/>
+                                <Label Text="• La deforestación es responsable de aproximadamente el 15% de las emisiones globales de CO2." FontSize="Small" FontAttributes="None" TextColor="White" LineBreakMode="WordWrap"/>
+                            </StackLayout>
+                        </Frame>
                     </StackLayout>
 
-                    <StackLayout Grid.Row="1" Grid.Column="1" Margin="0,80,0,0">
-                        <Label Text="Lorem ipsum dolor sit amet consectetur adipiscing elit, mus nisi penatibus vivamus ultrices morbi gravida, sem scelerisque pretium lacus " FontSize="Small" FontAttributes="None" TextColor="Gray"/>
-                        <Label Text="¡Implementa estos cambios!" FontSize="Large" FontAttributes="Bold" TextColor="DarkGreen"/>
+                    <StackLayout Grid.Row="1" Grid.Column="1" Grid.RowSpan="4" Margin="10,80,0,0">
+                        <Frame BackgroundColor="#006900" CornerRadius="10" Padding="10" HasShadow="True">
+                            <StackLayout>
+                                <Label Text="¡Implementa estos cambios!" FontSize="Large" FontAttributes="Bold" TextColor="#69FF69"/>
+                                <Label Text="• Registra tus emisiones, obtén recomendaciones para reducirlas y colabora en la lucha contra el cambio climático." FontSize="Small" FontAttributes="None" TextColor="White"/>
+                                <Label Text="• Adopta prácticas sostenibles, utiliza tecnologías limpias y disminuye el consumo de energía y recursos."
+                   FontSize="Small" FontAttributes="None" TextColor="White"/>
+                                <Label Text="• Reduce el consumo de productos de origen animal y opta por una dieta más basada en plantas." FontSize="Small" FontAttributes="None" TextColor="White"/>
+                                <Label Text="• Utiliza medios de transporte más sostenibles, como la bicicleta, el transporte público o compartir el automóvil." FontSize="Small" FontAttributes="None" TextColor="White"/>
+                            </StackLayout>
+                        </Frame>
                     </StackLayout>
 
-                    <StackLayout Grid.Row="2" Grid.Column="0" Margin="0,0,0,0">
-                        <Label Text="RIP AND&#x0a;RECYCLE" FontSize="40" FontAttributes="Bold" TextColor="DarkGreen"/>
+                    <StackLayout Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,0,0,0">
+                        <Frame BackgroundColor="#006900" CornerRadius="10" Padding="10" HasShadow="True">
+                            <Label Text="REDUCE Y&#x0a;RECICLA" FontSize="40" FontAttributes="Bold" TextColor="#69FF69" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        </Frame>
                     </StackLayout>
-                    <StackLayout Grid.Row="2" Grid.Column="1" Margin="0,0,0,0">
-                        <Label Text="My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane, Albuquerque, New Mexico, 87104. This is my confession."
-                           FontSize="Small" FontAttributes="None" TextColor="Gray"/>
-                    </StackLayout>
+
+
+
+
                 </Grid>
             </Grid>
-        <StackLayout Grid.Row="9" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-            <Button Text="Base&#x0a;Técnica" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="BtnIrBT"/>
+            <StackLayout Grid.Row="9" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Base&#x0a;Técnica" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="BtnIrBT"/>
                 <Button Text="Ingreso de&#x0a;Emisiones" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="125" x:Name="BtnIrIE"/>
                 <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="Logout"/>
-        </StackLayout>
+            </StackLayout>
         </Grid>
 
     </ContentPage.Content>
-    
+
 </ContentPage>
+

@@ -69,6 +69,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FileAccess.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -133,7 +134,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\BASE\BASE.csproj">
-      <Project>{9B6B868E-3E61-43A8-AE9E-E10371E2C1AC}</Project>
+      <Project>{F4C62C86-F5E4-43B6-B770-6AF86DC065CB}</Project>
       <Name>BASE</Name>
     </ProjectReference>
   </ItemGroup>

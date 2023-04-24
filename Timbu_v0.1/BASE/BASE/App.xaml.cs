@@ -1,15 +1,17 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using BASE.Model;
 
 namespace BASE
 {
     public partial class App : Application
     {
-        public App()
+        public App(string filename)
         {
             InitializeComponent();
-
+            UserRepository.Inicializador(filename);
+            EmisionRepository.Inicializador(filename);
             // MainPage = new MainPage();
             MainPage = new NavigationPage(new RegistroBoton());
         }

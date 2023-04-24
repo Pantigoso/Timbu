@@ -20,7 +20,8 @@
                     <local:RoundedEntry Placeholder="Contraseña" TextColor="Black" PlaceholderColor="LightGray" IsPassword="True" x:Name="pwd"/>
                     <Button Text="Crear cuenta" BackgroundColor="#2B791B" TextColor="White" Margin="5"
                              x:Name="btnRegistro" 
-                            CornerRadius="20" /> 
+                            CornerRadius="20" />
+                    <Label x:Name="StatusMessage" FontSize="Small" IsVisible="false"/>
                 </StackLayout>
             </Grid>
         </Grid>

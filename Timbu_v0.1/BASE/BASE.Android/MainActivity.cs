@@ -18,7 +18,8 @@ namespace BASE.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+            String dbPath = FileAccess.GetLocalFilePath("users.db3");
+            LoadApplication(new App(dbPath));
 
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

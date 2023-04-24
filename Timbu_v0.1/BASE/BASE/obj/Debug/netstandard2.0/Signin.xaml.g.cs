@@ -32,6 +32,9 @@ namespace BASE {
         private global::Xamarin.Forms.Button btnRegistro;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Label StatusMessage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Signin));
             usr = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BASE.RoundedEntry>(this, "usr");
@@ -39,6 +42,7 @@ namespace BASE {
             apll = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BASE.RoundedEntry>(this, "apll");
             pwd = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BASE.RoundedEntry>(this, "pwd");
             btnRegistro = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnRegistro");
+            StatusMessage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "StatusMessage");
         }
     }
 }

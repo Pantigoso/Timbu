@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BASE.IngresoEmisiones">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Grid.Row="0" Source="timbu_transparente.png" WidthRequest="100" HeightRequest="50" Margin="0,20,0,0"/>
+            <Grid>
+                <BoxView Color="#DFFDD2" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Row="1" Padding="20,20" Margin="0,10,0,0" >
+                        <Frame BackgroundColor="#006900" Padding="0" HasShadow="False" CornerRadius="10">
+                            <Label Text="Ingreso de Emisiones" BackgroundColor="#006900" TextColor="#69FF69"
+                               FontSize="Title" Padding="10,2"
+                               HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+                               VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                        </Frame>
+
+                        
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2" Padding="20,10" Margin="0,10,0,0" >
+                        <Label Text="¡Conozcamos tu impacto!" TextColor="#006900" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" FontSize="Subtitle"/>
+                        <DatePicker BackgroundColor="#Beige" TextColor="#006900" x:Name="entryFecha"/>
+                        <Entry Placeholder="Seleccione la actividad" BackgroundColor="#Beige" TextColor="#006900" x:Name="entryActividad" />
+                        <Entry Placeholder="Escriba el valor mensual" BackgroundColor="#Beige" TextColor="#006900" x:Name="entryValor"/>
+                        <Entry Placeholder="Escriba el valor potencial" BackgroundColor="#Beige" TextColor="#006900" x:Name="entryPotencial"/>
+                        <Entry Placeholder="Huella de Carbono" BackgroundColor="#Beige" TextColor="#006900" x:Name="huella"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="3" Padding="0,10" Margin="0,10,0,0" Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="#DFFDD2">
+                        <Button Text="Agregar actividad" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="150" x:Name="btnAgregarActividad" HorizontalOptions="Start"/>
+                        <Button Text="Ver Resultado" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="150" x:Name="btnVerResult" HorizontalOptions="End"/>
+                        <Grid>
+                <Label x:Name="StatusMessage" FontSize="Medium" />
+            <ListView x:Name="emisionList" >
+                <ListView.Header>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text=" Id Dato Factor Potencial Huella " TextColor="White" BackgroundColor="CadetBlue" />
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Label Text="{Binding Id}" />
+                                <Label Grid.Column="1" Text="{Binding id_Emision}" />
+                                <Label Grid.Column="2" Text="{Binding Fecha}" />
+                                <Label Grid.Column="3" Text="{Binding DatoEmision}" />
+                                <Label Grid.Column="4" Text="{Binding FactorEmision}" />
+                                <Label Grid.Column="5" Text="{Binding Potencial}" />
+                                <Label Grid.Column="6" Text="{Binding HuellaCarbono}" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            </Grid>
+                    </StackLayout>
+                </Grid>
+            </Grid>
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" BackgroundColor="#DFFDD2">
+                <Button Text="Inicio" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="125" x:Name="btnIrInicio"/>
+                <Button Text="Base&#x0a;Técnica" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="btnIrBT"/>
+                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="Logout"/>
+            </StackLayout>
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

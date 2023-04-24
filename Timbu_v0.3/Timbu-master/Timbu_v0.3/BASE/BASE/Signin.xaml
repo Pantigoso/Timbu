@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:BASE"
+             x:Class="BASE.Signin" BackgroundColor="white">
+    <StackLayout>
+        <Image Grid.Row="0" Source="timbu_transparente.png" WidthRequest="100" HeightRequest="50" Margin="0,20,0,0"/>
+        <Grid>
+            <BoxView Color="#FFFFFF" />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="1" Padding="50,20" Margin="0,140,0,0" >
+                    <local:RoundedEntry Placeholder="Correo electrónico" TextColor="Black" PlaceholderColor="LightGray" x:Name="usr" />
+                    <local:RoundedEntry Placeholder="Nombre" TextColor="Black" PlaceholderColor="LightGray" x:Name="nmb" />
+                    <local:RoundedEntry Placeholder="Apellido" TextColor="Black" PlaceholderColor="LightGray" x:Name="apll" />
+                    <local:RoundedEntry Placeholder="Contraseña" TextColor="Black" PlaceholderColor="LightGray" IsPassword="True" x:Name="pwd"/>
+                    <Button Text="Crear cuenta" BackgroundColor="#2B791B" TextColor="White" Margin="5"
+                             x:Name="btnRegistro" 
+                            CornerRadius="20" />
+                    <Label x:Name="StatusMessage" FontSize="Small" IsVisible="false"/>
+                </StackLayout>
+            </Grid>
+        </Grid>
+
+    </StackLayout>
+
+
+</ContentPage>

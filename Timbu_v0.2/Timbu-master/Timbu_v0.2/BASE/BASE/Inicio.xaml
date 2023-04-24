@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BASE.Inicio">
+    <ContentPage.Content>
+        <Grid>
+            <BoxView Color="white" Opacity="0.66"/>
+
+            <Grid>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Row="0" Margin="10,0,0,0" HorizontalOptions="Start">
+                        <Image Source="timbu_transparente.png" WidthRequest="100" HorizontalOptions="Start"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="3" Margin="0,170,0,0">
+                        <Image Source="imagenInicio.png" />
+                    </StackLayout>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Row="1" Grid.Column="0" Grid.RowSpan="4" Margin="10,80,0,0">
+                        <Frame CornerRadius="10" Padding="10" HasShadow="True">
+                            <StackLayout>
+                                <Label Text="¿Sabías que?" FontSize="Large" FontAttributes="Bold" TextColor="DarkGreen"/>
+                                <Label Text="• Las emisiones de CO2 son responsables del cambio climático. Nuestra aplicación te ayuda a calcular y reducir tus emisiones." FontSize="Small" FontAttributes="None" TextColor="Gray" LineBreakMode="WordWrap"/>
+                                <Label Text="• Aproximadamente el 75% del calentamiento global ha sido causado por las actividades humanas." FontSize="Small" FontAttributes="None" TextColor="Gray" LineBreakMode="WordWrap"/>
+                                <Label Text="• El sector del transporte es el que más contribuye a las emisiones globales de CO2." FontSize="Small" FontAttributes="None" TextColor="Gray" LineBreakMode="WordWrap"/>
+                                <Label Text="• La deforestación es responsable de aproximadamente el 15% de las emisiones globales de CO2." FontSize="Small" FontAttributes="None" TextColor="Gray" LineBreakMode="WordWrap"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+
+
+
+                    <StackLayout Grid.Row="1" Grid.Column="1" Grid.RowSpan="4" Margin="10,80,0,0">
+                        <Frame CornerRadius="10" Padding="10" HasShadow="True">
+                            <StackLayout>
+                                <Label Text="¡Implementa estos cambios!" FontSize="Large" FontAttributes="Bold" TextColor="DarkGreen"/>
+                                <Label Text="• Registra tus emisiones, obtén recomendaciones para reducirlas y colabora en la lucha contra el cambio climático." FontSize="Small" FontAttributes="None" TextColor="Gray"/>
+                                <Label Text="• Adopta prácticas sostenibles, utiliza tecnologías limpias y disminuye el consumo de energía y recursos."
+                   FontSize="Small" FontAttributes="None" TextColor="Gray"/>
+                                <Label Text="• Reduce el consumo de productos de origen animal y opta por una dieta más basada en plantas." FontSize="Small" FontAttributes="None" TextColor="Gray"/>
+                                <Label Text="• Utiliza medios de transporte más sostenibles, como la bicicleta, el transporte público o compartir el automóvil." FontSize="Small" FontAttributes="None" TextColor="Gray"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,0,0,0">
+                        <Frame CornerRadius="10" Padding="10" HasShadow="True">
+                            <Label Text="REDUCE Y&#x0a;RECICLA" FontSize="40" FontAttributes="Bold" TextColor="DarkGreen" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        </Frame>
+                    </StackLayout>
+
+
+
+                </Grid>
+            </Grid>
+            <StackLayout Grid.Row="9" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Base&#x0a;Técnica" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="BtnIrBT"/>
+                <Button Text="Ingreso de&#x0a;Emisiones" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="125" x:Name="BtnIrIE"/>
+                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="Logout"/>
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+
+</ContentPage>
+

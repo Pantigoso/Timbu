@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BASE.BaseTecnica">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Grid.Row="0" Source="timbu_transparente.png" WidthRequest="100" HeightRequest="50" Margin="0,10,0,0"/>
+            <Grid>
+                <BoxView Color="#FFFFFF" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Row="1" Padding="50,0" Margin="0,0,0,0" BackgroundColor="#DFFDD2">
+                        <Frame BackgroundColor="#006900" Padding="0" HasShadow="False" CornerRadius="10">
+                            <Label Text="Base Técnica" TextColor="#69FF69" FontSize="Title" Padding="10,2" Margin="0,10"
+           HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+           VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                        </Frame>
+
+
+                        <Image Source="https://www.bbva.com/wp-content/uploads/2021/10/calculadora-huella-carbono-sostenibilidad-bbva-895x1024.png"/>
+                        <Label FontSize="Micro" HorizontalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Imagen cortesía de " TextColor="#006900"/>
+                                    <Span Text="BBVA" TextColor="Blue" TextDecorations="Underline">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding ClickCommand}" CommandParameter="https://www.bbva.com/wp-content/uploads/2021/10/calculadora-huella-carbono-sostenibilidad-bbva-895x1024.png"/>
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                    <Span Text="." TextColor="#006900"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2" Padding="50,0" Margin="0,0,0,0" BackgroundColor="#DFFDD2">
+                        <Label Text="Veamos nuestra huella de carbono." TextColor="#006900"
+                               FontSize="Subtitle" Padding="10,2" Margin="0,10"
+                               HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+                               VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                </Grid>
+            </Grid>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                <Button Text="Inicio" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="125" x:Name="btnIrInicio"/>
+                <Button Text="Ingreso de&#x0a;Emisiones" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="btnIrIE"/>
+                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="Logout"/>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

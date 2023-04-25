@@ -18,7 +18,7 @@ namespace BASE
 
         private void BtnIr_Clicked(object sender, EventArgs e)
         {
-            ((NavigationPage)this.Parent).PushAsync(new Signin());
+            ((NavigationPage)this.Parent).PushAsync(new SignUp());
 
         }
 

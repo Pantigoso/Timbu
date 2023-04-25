@@ -7,7 +7,7 @@ namespace BASE.Model
 {
 	class UserRepository
 	{
-		private SQLiteConnection con;
+		private SQLiteConnection conn;
 
 		private static UserRepository instancia;
 		public static UserRepository Instancia
@@ -28,15 +28,15 @@ namespace BASE.Model
 			}
             if (instancia != null)
 			{
-				instancia.con.Close();
+				instancia.conn.Close();
 			}
             instancia = new UserRepository(filename);
         }
 
         private UserRepository(String dbPath)
 		{
-			con = new SQLiteConnection(dbPath);
-			con.CreateTable<User>();
+			conn = new SQLiteConnection(dbPath);
+			conn.CreateTable<User>();
 		}
 
         public string EstadoMensaje;
@@ -45,7 +45,7 @@ namespace BASE.Model
 		{ int result = 0;
 			try
 			{
-				result = con.Insert(new User {
+				result = conn.Insert(new User {
 					CorreoElectronico = correoElectronico,
 					Nombre = nombre,
 					Apellido = apellido,
@@ -63,7 +63,7 @@ namespace BASE.Model
 		{
 			try
 			{
-				return con.Table<User>();
+				return conn.Table<User>();
 			}
 			catch (Exception e)
 			{

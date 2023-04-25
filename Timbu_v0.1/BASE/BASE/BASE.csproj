@@ -26,8 +26,8 @@
     <Compile Update="Inicio.xaml.cs">
       <DependentUpon>Inicio.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Signin.xaml.cs">
-      <DependentUpon>Signin.xaml</DependentUpon>
+    <Compile Update="SignUp.xaml.cs">
+      <DependentUpon>SignUp.xaml</DependentUpon>
     </Compile>
     <Compile Update="RegistroBoton.xaml.cs">
       <DependentUpon>RegistroBoton.xaml</DependentUpon>
@@ -38,8 +38,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Model\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
   </ItemGroup>
 </Project>

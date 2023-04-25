@@ -32,12 +32,12 @@ namespace BASE
         private void BtnAgregarActividad_Clicked(object sender, EventArgs e)
         {
             StatusMessage.Text = string.Empty;
-            EmisionRepository.Instancia.AddNewEmision(entryFecha.Date, Convert.ToInt32(entryValor.Text), entryActividad.Text, Convert.ToInt32(entryPotencial.Text), Convert.ToInt32(huella.Text));
-            StatusMessage.Text = EmisionRepository.Instancia.EstadoMensaje;
+            CalculaImpacto();
+            EmisionRepository.Instancia.AddNewEmision(entryFecha.Date, Convert.ToInt32(entryValor.Text), entryActividad.Text, Convert.ToInt32(entryPotencial.Text), Convert.ToInt32(valHuella.Text));
+            //StatusMessage.Text = EmisionRepository.Instancia.EstadoMensaje; //Debug
             entryActividad.Text = "";
             entryValor.Text = "";
             entryPotencial.Text = "";
-            huella.Text = "";
         }
 
         private void BtnIrBT_Clicked(object sender, EventArgs e)
@@ -49,6 +49,12 @@ namespace BASE
         {
             ((Xamarin.Forms.NavigationPage)this.Parent).PushAsync(new Inicio());
 
+        }
+
+        private void CalculaImpacto()
+        {
+            Int32 numHuellaCarbono = Int32.Parse(entryValor.Text) * Int32.Parse(entryPotencial.Text);
+            valHuella.Text = numHuellaCarbono.ToString();
         }
 
     }

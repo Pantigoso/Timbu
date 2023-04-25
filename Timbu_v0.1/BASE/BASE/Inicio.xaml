@@ -85,7 +85,7 @@
             <StackLayout Grid.Row="9" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Button Text="Base&#x0a;Técnica" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="BtnIrBT"/>
                 <Button Text="Ingreso de&#x0a;Emisiones" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="125" x:Name="BtnIrIE"/>
-                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="Logout"/>
+                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="btnLogOut"/>
             </StackLayout>
         </Grid>
 

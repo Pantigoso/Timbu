@@ -20,6 +20,7 @@ namespace BASE
             btnIrInicio.Clicked += BtnIrInicio_Clicked;
             btnAgregarActividad.Clicked += BtnAgregarActividad_Clicked;
             btnVerResult.Clicked += BtnVerResult_Clicked;
+            btnLogOut.Clicked += BtnLogOut_Clicked;
         }
 
         private void BtnVerResult_Clicked(object sender, EventArgs e)
@@ -50,6 +51,11 @@ namespace BASE
             ((Xamarin.Forms.NavigationPage)this.Parent).PushAsync(new Inicio());
 
         }
+        private void BtnLogOut_Clicked(object sender, EventArgs e)
+        {
+            ((Xamarin.Forms.NavigationPage)this.Parent).PushAsync(new RegistroBoton());
+        }
+
 
         private void CalculaImpacto()
         {

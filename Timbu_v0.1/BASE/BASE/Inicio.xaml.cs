@@ -17,6 +17,7 @@ namespace BASE
 			InitializeComponent ();
             BtnIrBT.Clicked += BtnIrBT_Clicked;
             BtnIrIE.Clicked += BtnIrIE_Clicked;
+            btnLogOut.Clicked += BtnLogOut_Clicked;
         }
         private void BtnIrBT_Clicked(object sender, EventArgs e)
         {
@@ -26,7 +27,11 @@ namespace BASE
         private void BtnIrIE_Clicked(object sender, EventArgs e)
         {
             ((NavigationPage)this.Parent).PushAsync(new IngresoEmisiones());
+        }
 
+        private void BtnLogOut_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new RegistroBoton());
         }
     }
 }

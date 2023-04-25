@@ -18,6 +18,7 @@ namespace BASE
 			InitializeComponent ();
             btnIrInicio.Clicked += BtnIrInicio_Clicked;
             btnIrIE.Clicked += BtnIrIE_Clicked;
+            btnLogOut.Clicked += BtnLogOut_Clicked;
         }
         private void BtnIrInicio_Clicked(object sender, EventArgs e)
         {
@@ -28,6 +29,10 @@ namespace BASE
         {
             ((NavigationPage)this.Parent).PushAsync(new IngresoEmisiones());
 
+        }
+        private void BtnLogOut_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new RegistroBoton());
         }
 
         public ICommand ClickCommand => new Command<string>((url) =>

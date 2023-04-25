@@ -45,8 +45,8 @@
                         <Label x:Name="StatusMessage" FontSize="Medium" IsVisible="False"/>
                         <ListView x:Name="emisionList">
                             <ListView.Header>
-                                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                                    <Label Text=" Id Dato Factor Potencial Huella " TextColor="White" BackgroundColor="CadetBlue" HorizontalTextAlignment="Center"/>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                    <Label Text="Fecha Dato Factor Potencial Huella " TextColor="White" BackgroundColor="CadetBlue" HorizontalTextAlignment="Center"/>
                                 </StackLayout>
                             </ListView.Header>
                             <ListView.ItemTemplate>
@@ -54,21 +54,19 @@
                                     <ViewCell>
                                         <Grid>
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="1*"/>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="*"/>
                                             </Grid.ColumnDefinitions>
-                                            
+
                                             <Label Text="{Binding Id}" />
-                                            <Label Grid.Column="1" Text="{Binding id_Emision}" />
-                                            <Label Grid.Column="2" Text="{Binding Fecha}" />
-                                            <Label Grid.Column="3" Text="{Binding DatoEmision}" />
-                                            <Label Grid.Column="4" Text="{Binding FactorEmision}" />
-                                            <Label Grid.Column="5" Text="{Binding Potencial}" />
-                                            <Label Grid.Column="6" Text="{Binding HuellaCarbono}" />
+                                            <Label Grid.Column="1" Text="{Binding Fecha}" />
+                                            <Label Grid.Column="2" Text="{Binding DatoEmision}" />
+                                            <Label Grid.Column="3" Text="{Binding FactorEmision}" />
+                                            <Label Grid.Column="4" Text="{Binding Potencial}" />
+                                            <Label Grid.Column="5" Text="{Binding HuellaCarbono}" />
                                         </Grid>
                                     </ViewCell>
                                 </DataTemplate>
@@ -81,7 +79,7 @@
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" BackgroundColor="#DFFDD2">
                 <Button Text="Inicio" BackgroundColor="#006900" TextColor="#69FF69" CornerRadius="20" WidthRequest="125" x:Name="btnIrInicio"/>
                 <Button Text="Base&#x0a;Técnica" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="btnIrBT"/>
-                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="Logout"/>
+                <Button Text="Cerrar&#x0a; Sesión" BackgroundColor="#69FF69" TextColor="#006900" CornerRadius="20" WidthRequest="125" x:Name="btnLogOut"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

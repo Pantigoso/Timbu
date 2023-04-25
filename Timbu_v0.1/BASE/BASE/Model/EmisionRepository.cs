@@ -54,7 +54,7 @@ namespace BASE.Model
                     Potencial = potencial,
                     HuellaCarbono = huella
                 });
-                //EstadoMensaje = string.Format("Cantidad filas : {0}", result); //Debug
+                EstadoMensaje = string.Format("Cantidad filas : {0}", result); //Debug
             }
             catch (Exception e)
             {

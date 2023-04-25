@@ -34,7 +34,7 @@ namespace BASE
             StatusMessage.Text = string.Empty;
             CalculaImpacto();
             EmisionRepository.Instancia.AddNewEmision(entryFecha.Date, Convert.ToInt32(entryValor.Text), entryActividad.Text, Convert.ToInt32(entryPotencial.Text), Convert.ToInt32(valHuella.Text));
-            //StatusMessage.Text = EmisionRepository.Instancia.EstadoMensaje; //Debug
+            StatusMessage.Text = EmisionRepository.Instancia.EstadoMensaje; //Debug
             entryActividad.Text = "";
             entryValor.Text = "";
             entryPotencial.Text = "";

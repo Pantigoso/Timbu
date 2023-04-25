@@ -42,7 +42,7 @@
 
                     <Grid Grid.Row="4">
                         <!-- Set the ListView to the new row -->
-                        <Label x:Name="StatusMessage" FontSize="Medium" />
+                        <Label x:Name="StatusMessage" FontSize="Medium" IsVisible="False"/>
                         <ListView x:Name="emisionList">
                             <ListView.Header>
                                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">

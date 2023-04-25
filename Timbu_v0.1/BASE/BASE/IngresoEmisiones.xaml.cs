@@ -7,6 +7,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
 using BASE.Model;
+using System.Diagnostics;
 
 namespace BASE
 {
@@ -33,10 +34,16 @@ namespace BASE
         private void BtnAgregarActividad_Clicked(object sender, EventArgs e)
         {
             StatusMessage.Text = string.Empty;
-            CalculaImpacto();
+            bool tipoActividad = false;
+            if (entryActividad.Text == "Oficina") tipoActividad = false;
+            else if (entryActividad.Text == "Vehiculo") tipoActividad = true;
+            else
+            {
+                Debug.WriteLine("ERROR: Tipo de actividad incorrecto.");
+            }
+            CalculaImpacto(tipoActividad);
             EmisionRepository.Instancia.AddNewEmision(entryFecha.Date, Convert.ToInt32(entryValor.Text), entryActividad.Text, Convert.ToInt32(entryPotencial.Text), Convert.ToInt32(valHuella.Text));
             StatusMessage.Text = EmisionRepository.Instancia.EstadoMensaje; //Debug
-            entryActividad.Text = "";
             entryValor.Text = "";
             entryPotencial.Text = "";
         }
@@ -56,10 +63,19 @@ namespace BASE
             ((Xamarin.Forms.NavigationPage)this.Parent).PushAsync(new RegistroBoton());
         }
 
+        public System.Collections.IList ItemsSource { get; set; }
 
-        private void CalculaImpacto()
+        private void CalculaImpacto(bool activityType)
         {
-            Int32 numHuellaCarbono = Int32.Parse(entryValor.Text) * Int32.Parse(entryPotencial.Text);
+            Int32 valTipoActividad = 0;
+            if(activityType)
+            {
+                valTipoActividad = 300;
+            } else if(activityType == false)
+            {
+                valTipoActividad = 2700;
+            }
+            Int32 numHuellaCarbono = Int32.Parse(entryValor.Text) * Int32.Parse(entryPotencial.Text) * valTipoActividad;
             valHuella.Text = numHuellaCarbono.ToString();
         }
 

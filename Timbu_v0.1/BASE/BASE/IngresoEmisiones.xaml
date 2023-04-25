@@ -28,7 +28,7 @@
                     <StackLayout Grid.Row="2" Padding="20,0" Margin="0,0,0,0" >
                         <Label Text="¡Conozcamos tu impacto!" TextColor="#006900" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" FontSize="Subtitle"/>
                         <DatePicker BackgroundColor="#Beige" TextColor="#006900" x:Name="entryFecha"/>
-                        <Entry Placeholder="Ingrese la actividad" BackgroundColor="#Beige" TextColor="#006900" x:Name="entryActividad" />
+                        <Entry Placeholder="¿Oficina o Vehículo?" BackgroundColor="#Beige" TextColor="#006900" x:Name="entryActividad"/>
                         <Entry Placeholder="Escriba el valor mensual" BackgroundColor="#Beige" TextColor="#006900" x:Name="entryValor"/>
                         <Entry Placeholder="Escriba el valor potencial" BackgroundColor="#Beige" TextColor="#006900" x:Name="entryPotencial"/>
                         <Label Text="Huella de Carbono: " BackgroundColor="#Beige" TextColor="#006900" FontSize="18" x:Name="lblHuella"/>
